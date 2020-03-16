@@ -1,0 +1,20 @@
+{
+    "name": "cristiangiordano/nova-test-assertions",
+    "description": "A small trait to aid testing Laravel Nova integrations",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Cristian Giordano",
+            "email": "cristian.n.giordano@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "NovaTestHelpers\\": "src/"
+        }
+    },
+    "require": {
+        "php": "^7.1"
+    }
+}
